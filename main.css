@@ -1,0 +1,15 @@
+.navbar {
+    height: 70px;
+}
+
+.navbar input, .navbar img {
+    width: 200px;
+    height: 40px;
+}
+
+.navbar input {
+    -webkit-appearance: none;
+    font-size: 14px;
+    font-family: Lato;
+    font-weight: bolder;
+}
