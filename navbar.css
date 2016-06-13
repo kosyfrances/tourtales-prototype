@@ -8,20 +8,14 @@ html, body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 70px;
-    width: 100%;
+    align-items: center;
     background: rgba(0, 0, 0, 0.1);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), inset 0 1px 3px rgba(0, 0, 0, 0.5);
+    padding: 15px 50px;
 }
 
 .navbar img, .navbar a {
-    width: 200px;
     height: 40px;
-    margin-top: 15px;
-}
-
-.navbar img {
-    margin-left: 50px;
 }
 
 .navbar a {
@@ -33,5 +27,29 @@ html, body {
     color: white;
     background: #D9A300;
     text-decoration: none;
-    margin-right: 50px;
+    width: 200px;
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        padding: 10px 30px;
+    }
+
+    .navbar img {
+        height: 30px;
+    }
+
+    .navbar a {
+        width: 100px;
+    }
+}
+
+@media (max-width: 375px) {
+    .navbar img {
+        height: 25px;
+    }
+
+    .navbar a {
+        width: 90px;
+    }
 }
