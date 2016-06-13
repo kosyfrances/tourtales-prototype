@@ -1,0 +1,31 @@
+.background, .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.background {
+    background-image: url("assets/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+
+.overlay {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.35) 0%,
+        rgba(0, 0, 0, 0.07) 50%,
+        rgba(0, 0, 0, 0.07) 70%,
+        rgba(0, 0, 0, 1) 100%
+    );
+}
+
+.hero {
+    position: relative;
+}
+
+.hero h1 {
+    font-size: 64px;
+    font-weight: 700;
+}
