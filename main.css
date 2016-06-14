@@ -20,37 +20,35 @@ body {
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.7);
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
     padding: 15px 50px;
     width: 100%;
     z-index: 1;
 }
 
-.navbar img, .navbar a {
+.navbar img {
     height: 40px;
-}
-
-.navbar a {
-    font-size: 14px;
-    font-weight: 900;
-    text-align: center;
-    line-height: 40px;
-    color: white;
-    background: #D9A300;
-    text-decoration: none;
-    width: 200px;
 }
 
 /********* Page body ***********/
 .main {
-    width: 100%;
-    height: 100%;
     position: relative;
 }
 
 /********* Footer ***********/
 /*Footer style here*/
+.footer {
+    position: relative;
+}
+
+.footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.footer h3 {
+    font-size: 14px;
+}
 
 /********* Media Queries ***********/
 /********* Navbar ***********/
@@ -64,7 +62,7 @@ body {
     }
 
     .navbar a {
-        width: 100px;
+        padding: 12px 30px;
     }
 }
 
@@ -74,6 +72,6 @@ body {
     }
 
     .navbar a {
-        width: 90px;
+        padding: 12px 10px;
     }
 }

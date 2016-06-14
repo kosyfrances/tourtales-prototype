@@ -1,0 +1,21 @@
+.anchor-btn {
+    font-size: 14px;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+    background: #D9A300;
+    text-decoration: none;
+    padding: 12px 50px;
+}
+
+.cover {
+    width: 100%;
+    height: 100%;
+}
+
+/********* Media Queries ***********/
+@media (max-width: 425px) {
+    .anchor-btn {
+        padding: 10px 20px;
+    }
+}
