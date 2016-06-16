@@ -8,12 +8,18 @@ html, body {
 }
 
 body {
-    position: relative;
     font-family: 'Lato', sans-serif;
 }
 
-.navbar, .footer {
+body, .main {
+    position: relative;
+}
+
+.navbar, .right-nav-section, .footer, .footer-links {
     display: flex;
+}
+
+.navbar, .right-nav-section, .footer {
     flex-direction: row;
 }
 
@@ -29,13 +35,12 @@ body {
     z-index: 1;
 }
 
-.navbar img {
+.navbar .logo {
     height: 40px;
 }
 
-/********* Page body ***********/
-.main {
-    position: relative;
+.navbar .profile-img {
+    height: 38px;
 }
 
 /********* Footer ***********/
@@ -56,7 +61,6 @@ body {
 
 .footer-links {
     height: 150px;
-    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
@@ -75,12 +79,8 @@ body {
         padding: 10px 30px;
     }
 
-    .navbar img {
+    .navbar .logo {
         height: 30px;
-    }
-
-    .navbar a {
-        padding: 12px 30px;
     }
 
     .footer {
@@ -97,16 +97,6 @@ body {
 
 }
 
-@media (max-width: 375px) {
-    .navbar img {
-        height: 25px;
-    }
-
-    .navbar a {
-        padding: 12px 10px;
-    }
-}
-
 @media(max-width: 425px) {
     .footer {
         padding: 15px 40px;
@@ -118,5 +108,16 @@ body {
 
     .footer-links li {
         min-width: 80px;
+    }
+
+    .navbar .profile-img {
+        height: 34px;
+    }
+}
+
+@media (max-width: 375px) {
+    .navbar .logo
+     {
+        height: 25px;
     }
 }
