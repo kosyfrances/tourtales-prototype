@@ -1,0 +1,50 @@
+.right-nav-section, .search-bar {
+    display: flex;
+    flex-direction: row;
+}
+
+.right-nav-section {
+    align-items: center;
+}
+
+.profile-img {
+    margin: 0 9px;
+}
+
+.search-bar {
+    justify-content: flex-end;
+    padding: 15px 50px;
+}
+
+.icon-input {
+    position: relative;
+}
+
+.icon-input input {
+    width: 214px;
+    height: 30px;
+    border: 1px solid #979797;
+    border-radius: 5px;
+    display: block;
+}
+
+.icon-input i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/********* Media Query ***********/
+
+@media (max-width: 425px) {
+    .create-new .btn-text {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .search-bar {
+        padding: 10px 30px;
+    }
+}

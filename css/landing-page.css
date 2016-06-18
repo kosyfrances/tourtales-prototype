@@ -3,7 +3,7 @@
 }
 
 .background {
-    background-image: url('assets/hero.jpg');
+    background-image: url('../assets/hero.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -44,7 +44,7 @@
     font-style: italic;
 }
 
-/********* Media Queries ***********/
+/********* Media Query ***********/
 @media (max-width: 1024px) {
     .hero {
         padding: 200px 35px;

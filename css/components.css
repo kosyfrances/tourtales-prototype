@@ -13,7 +13,8 @@
     height: 100%;
 }
 
-/********* Media Queries ***********/
+
+/********* Media Query ***********/
 @media (max-width: 425px) {
     .anchor-btn {
         padding: 10px 20px;
