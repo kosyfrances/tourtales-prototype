@@ -1,4 +1,4 @@
-.right-nav-section, .search-bar, .album-section {
+.right-nav-section, .search-bar, .album-section, .pagination {
     display: flex;
     flex-direction: row;
 }
@@ -37,17 +37,18 @@
 }
 
 .album-section {
-    padding: 0 50px 50px;
+    padding: 0 50px;
     flex-wrap: wrap;
 }
 
 .album {
     display: flex;
     flex-direction: column;
+    flex-basis: 20%;
     height: 428px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin: 30px 5px;
+    margin: 30px 5px 0 5px;
 }
 
 .album, .album img {
@@ -81,6 +82,15 @@
 
 .album-icons i {
     margin: 0 10px;
+}
+
+.pagination {
+    font-size: 12px;
+    justify-content: center;
+}
+
+.pagination p {
+    margin: 30px 10px;
 }
 
 /********* Media Query ***********/
