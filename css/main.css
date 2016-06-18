@@ -19,6 +19,7 @@ body, .main {
 .main-content {
     position: static;
     padding-top: 80px;
+    flex: none;
 }
 
 .other-page {
@@ -64,7 +65,6 @@ body, .main {
 
 .footer h3 {
     font-size: 14px;
-    font-weight: 700;
     margin-bottom: 30px;
 }
 
@@ -77,7 +77,6 @@ body, .main {
 
 .footer-links li {
     font-size: 12px;
-    font-weight: 100;
     flex-basis: 25%;
     min-width: 150px;
 }

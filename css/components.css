@@ -1,3 +1,23 @@
+.text-ultra-bold {
+    font-weight: 900;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.text-normal {
+    font-weight: 400;
+}
+
+.text-light {
+    font-weight: 300;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
 .anchor-btn {
     font-size: 14px;
     font-weight: 900;
