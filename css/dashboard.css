@@ -3,7 +3,7 @@
     flex-direction: row;
 }
 
-.right-nav-section, .album {
+.right-nav-section {
     align-items: center;
 }
 
@@ -13,7 +13,7 @@
 
 .search-bar {
     justify-content: flex-end;
-    padding: 15px 50px;
+    padding: 15px 50px 0 50px;
 }
 
 .icon-input {
@@ -42,22 +42,22 @@
 }
 
 .album {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 20%;
-    height: 428px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin: 30px 5px 0 5px;
+    text-align: center;
 }
 
-.album, .album img {
+.album, .album-image {
     width: 285px;
 }
 
-.album img {
-    height: 330px;
+.album-image {
+    height: 250px;
     border-radius: 8px 8px 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .album-header, .album-date, .album-icons{
@@ -78,6 +78,7 @@
 
 .album-icons {
     opacity: 0.5;
+    margin-bottom: 20px;
 }
 
 .album-icons i {

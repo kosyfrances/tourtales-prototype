@@ -1,17 +1,9 @@
-.text-ultra-bold {
-    font-weight: 900;
-}
-
 .text-bold {
     font-weight: 700;
 }
 
 .text-normal {
     font-weight: 400;
-}
-
-.text-light {
-    font-weight: 300;
 }
 
 .text-thin {
