@@ -3,7 +3,6 @@
 }
 
 .background {
-    background-image: url('../assets/hero.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -38,7 +37,7 @@
 }
 
 .hero p {
-    font-size: 40px;
+    font-size: 30px;
     font-style: italic;
 }
 

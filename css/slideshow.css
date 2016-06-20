@@ -1,0 +1,36 @@
+.slide {
+    min-height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.slide:before {
+
+}
+
+.slide1 {
+
+}
+
+.slide2 {
+
+}
+
+.slide3 {
+
+}
+
+.slide4 {
+
+}
+
+.slide5 {
+
+}
+
+.slide6 {
+}
+
