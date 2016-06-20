@@ -1,18 +1,53 @@
-.slide {
-    min-height: 100vh;
+.slideshow-navbar {
+    box-shadow: none;
+    background: none;
+}
+
+.slide, .slide-img, .slide-overlay {
     width: 100vw;
+    min-height: 100vh;
+}
+
+.slide-img, .slide-overlay {
+    position: absolute;
+}
+
+.slide-img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
-.slide:before {
+.slide-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+}
 
+.content {
+    position: relative;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.slide1 .slide-title {
+    font-size: 72px;
+}
+
+.slide1 .slide-author {
+    font-size: 24px;
+}
+
+.slide-description {
+    font-size: 48px;
 }
 
 .slide1 {
-
 }
 
 .slide2 {
