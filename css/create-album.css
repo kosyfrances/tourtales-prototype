@@ -1,0 +1,47 @@
+.main-content {
+    padding: 114px 67px 0 147px;
+}
+
+.create-album-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.create-album-header, .cancel {
+    color: #D9A300;;
+}
+
+.create-album-header {
+    font-size: 26px;
+}
+
+.cancel {
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+input {
+    background: #F3F3F3;
+    border: 1px solid #979797;
+}
+
+.album-name, .description {
+    width: 596px;
+}
+
+.album-name, .location, .date {
+    height:40px;
+}
+
+.location {
+    width: 285px;
+}
+
+.date {
+    width: 291px;
+}
+
+.description {
+    height: 88px;
+}
