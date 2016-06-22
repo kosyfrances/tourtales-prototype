@@ -23,7 +23,7 @@
 
 input {
     background: #F3F3F3;
-    border: 1px solid #979797;
+    border: 1px solid rgba(151, 151, 151, 0.2);
 }
 
 .album-name, .description {
@@ -34,8 +34,13 @@ input {
     height:40px;
 }
 
+.album-name {
+    margin-top: 30px;
+}
+
 .location {
     width: 285px;
+    margin: 20px 16px 20px 0;
 }
 
 .date {
@@ -44,4 +49,52 @@ input {
 
 .description {
     height: 88px;
+}
+
+/********* Media Query ***********/
+
+@media (max-width: 768px) {
+    .album-name, .description {
+        width: 400px;;
+    }
+
+    .location {
+        width: 200px;
+        margin: 15px 10px 15px 0;
+    }
+
+    .date {
+        width: 185px;
+    }
+
+    .description {
+        height: 78px;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .main-content {
+        padding: 80px 40px 0 40px;
+    }
+
+    .create-album-header {
+        font-size: 15px;
+    }
+
+    .anchor-btn {
+        padding: 5px 10px;
+    }
+
+    .album-name, .description, .location, .date  {
+        width: 240px;
+    }
+
+    .location {
+        margin: 10px 0;
+    }
+
+    .date {
+        margin-bottom: 10px;
+    }
 }
