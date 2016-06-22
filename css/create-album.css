@@ -21,9 +21,10 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-input {
+input, textarea {
     background: #F3F3F3;
     border: 1px solid rgba(151, 151, 151, 0.2);
+    padding: 10px;
 }
 
 .album-name, .description, .album-photo-form {
