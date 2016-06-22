@@ -2,7 +2,7 @@
     padding: 114px 67px 0 147px;
 }
 
-.create-album-top {
+.create-album-top, .photos-top, .album-photo-form {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -26,11 +26,11 @@ input {
     border: 1px solid rgba(151, 151, 151, 0.2);
 }
 
-.album-name, .description {
+.album-name, .description, .album-photo-form {
     width: 596px;
 }
 
-.album-name, .location, .date {
+.album-input{
     height:40px;
 }
 
@@ -38,18 +38,51 @@ input {
     margin-top: 30px;
 }
 
-.location {
+.album-location {
     width: 285px;
     margin: 20px 16px 20px 0;
 }
 
-.date {
+.album-date {
     width: 291px;
 }
 
 .description {
     height: 88px;
 }
+
+.photos-top {
+    margin: 30px 0;
+}
+
+.upload {
+    margin-right: 135px;
+}
+
+.album-photo-form {
+    margin-bottom: 60px;
+}
+
+.album-photo {
+    width: 251px;
+    height: 240px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.photo-name, .photo-location, .photo-date {
+    margin-bottom: 10px;
+}
+
+.photo-name, .photo-location, .photo-date, .photo-story {
+    width: 310px;
+}
+
+.photo-story {
+    height: 88px;
+}
+
 
 /********* Media Query ***********/
 
@@ -58,17 +91,38 @@ input {
         width: 400px;;
     }
 
-    .location {
+    .album-location {
         width: 200px;
         margin: 15px 10px 15px 0;
     }
 
-    .date {
+    .album-date {
         width: 185px;
     }
 
     .description {
         height: 78px;
+    }
+
+    .upload {
+        margin-right: 155px;
+    }
+
+    .album-photo {
+        width: 200px;
+        height: 210px;
+    }
+
+    .album-photo-form {
+        width: 400px;
+    }
+
+    .photo-name, .photo-location, .photo-date, .photo-story {
+        width: 185px;
+    }
+
+    .photo-story {
+        height: 60px;
     }
 
 }
@@ -86,15 +140,31 @@ input {
         padding: 5px 10px;
     }
 
-    .album-name, .description, .location, .date  {
+    .album-name, .description, .album-location, .album-date  {
         width: 240px;
     }
 
-    .location {
+    .album-location {
         margin: 10px 0;
     }
 
-    .date {
+    .album-date {
         margin-bottom: 10px;
+    }
+
+    .album-photo-form {
+        flex-direction: column;
+    }
+
+    .album-photo, .photo-name, .photo-location, .photo-date, .photo-story {
+        width: 235px;
+    }
+
+    .photo-name {
+        margin-top: 10px;
+    }
+
+    .photos-top .create-album-header {
+        margin-right: 20px;
     }
 }
